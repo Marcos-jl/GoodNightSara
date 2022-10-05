@@ -1,0 +1,38 @@
+body {
+    background-color: #836FFF;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 300px){
+    #moldura {
+        width: 55%;
+        border-radius: 32px;
+    }
+    
+    #casal {
+        position: absolute;
+        width: 50%;
+        margin-left: -50%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    #moldura {
+        width: 55%;
+        border-radius: 32px;
+    }
+    
+    #casal {
+        position: absolute;
+        width: 17%;
+        margin-left: -18%;
+    }
+}
+
+
+
